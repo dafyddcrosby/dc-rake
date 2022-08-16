@@ -1,4 +1,5 @@
 # frozen_string_literal: true
 
-module DcRake
-end
+require "rubocop/rake_task"
+
+RuboCop::RakeTask.new

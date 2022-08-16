@@ -1,9 +1,11 @@
 # frozen_string_literal: true
 
+require_relative "lib/dc_rake/version"
+
 Gem::Specification.new do |spec|
   spec.name = "dc-rake"
   spec.required_ruby_version = ">= 2.5.0"
-  spec.version     = "0.0.1"
+  spec.version     = DcRake::VERSION
   spec.platform    = Gem::Platform::RUBY
   spec.authors     = ["David Crosby"]
   spec.homepage    = "https://daveops.net"
