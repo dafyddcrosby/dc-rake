@@ -4,7 +4,7 @@ require_relative "lib/dc_rake/version"
 
 Gem::Specification.new do |spec|
   spec.name = "dc-rake"
-  spec.required_ruby_version = ">= 2.5.0"
+  spec.required_ruby_version = ">= 3.0.0"
   spec.version     = DcRake::VERSION
   spec.platform    = Gem::Platform::RUBY
   spec.authors     = ["David Crosby"]
