@@ -1,0 +1,12 @@
+---
+name: Ruby
+'on':
+  push:
+    branches:
+    - main
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  rake:
+    uses: dafyddcrosby/dc-github-actions/.github/workflows/bundle_rake.yml@main

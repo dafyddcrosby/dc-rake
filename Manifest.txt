@@ -1,0 +1,9 @@
+CODE_OF_CONDUCT.md
+Gemfile
+Guardfile
+LICENSE
+README.md
+Rakefile
+dc-typing.gemspec
+lib/dc_typing/version.rb
+lib/dc_typing.rb
