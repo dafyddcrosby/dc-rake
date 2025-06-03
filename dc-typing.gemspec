@@ -17,6 +17,6 @@ Gem::Specification.new do |spec|
 
   spec.files = File.read("Manifest.txt").split
 
-  spec.add_dependency "rbs-inline", "= 0.11.0"
+  spec.add_dependency "rbs-inline", "= 0.11.0" # TODO: Switch to RBS 4 once it's out
   spec.add_dependency "steep", "= 1.10.0"
 end
